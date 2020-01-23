@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Europe";
+  src: url(../fonts/EuropeDemi.otf) format("truetype");
+  font-weight: bold;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  min-height: 100%;
+}
+
+img {
+  vertical-align: middle;
+  max-height: 100%;
+  max-width: 100%;
+}

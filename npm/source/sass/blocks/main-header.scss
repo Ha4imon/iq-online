@@ -1,0 +1,52 @@
+.main-header {
+  padding-top: 20px;
+}
+
+.main-header__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.main-header__logo {
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+
+.main-header__tel-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main-header__tel-list li {
+  margin-bottom: 5px;
+}
+
+.main-header__tel-list a {
+  color: $orange;
+  font-family: "Europe", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 20px;
+  text-decoration: none;
+  transition: color .3s;
+
+  &:hover {
+    color: darken($orange, 10%);
+  }
+}
+
+
+@media (min-width: $tablet) {
+  .main-header__wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 25px;
+  }
+
+  .main-header__logo {
+    margin-bottom: 0;
+  }
+}

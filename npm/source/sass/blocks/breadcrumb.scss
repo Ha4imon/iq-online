@@ -1,0 +1,37 @@
+.breadcrumb {
+  display: flex;
+  list-style: none;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.breadcrumb__item {
+  position: relative;
+  margin-right: 12px;
+
+  &::before {
+    content: "-";
+    position: absolute;
+    top: 50%;
+    right: -8px;
+    transform: translateY(-50%);
+  }
+
+  &:last-child::before {
+    content: none;
+  }
+}
+
+.breadcrumb__item a {
+  color: #231f20;
+  font-size: 12px;
+  transition: color .3s;
+
+  &:hover {
+    color: $orange;
+  }
+}
+
+.breadcrumb__item span {
+  font-size: 12px;
+}

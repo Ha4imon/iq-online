@@ -1,0 +1,11 @@
+.main-content {
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+
+@media (min-width: $tablet) {
+  .main-content__wrapper {
+    margin: 0;
+  }
+}
