@@ -6,6 +6,5 @@ Thumbs.db
 prepros.cfg
 *.sublime*
 *.map
-css/*.css
 build/
 package-lock.json
